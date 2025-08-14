@@ -1,3 +1,5 @@
+package petrolpurchase;
+
 public class PetrolPurchase {
 
     private String location;
