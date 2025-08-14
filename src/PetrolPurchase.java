@@ -14,6 +14,12 @@ public class PetrolPurchase {
         this.discount = discount;
     }
 
+    public double getPurchaseAmount() {
+        double totalCost = quantityInLitres * pricePerLitre;
+        double discountAmount = totalCost * (discount / 100);
+        return totalCost - discountAmount;
+    }
+
     public String getLocation() {
         return location;
     }
