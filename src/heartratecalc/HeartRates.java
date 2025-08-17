@@ -46,4 +46,10 @@ public class HeartRates {
        int age = calculateAge();
         return 220 - age;
     }
+
+    public int targetHeartRate() {
+        int maxHeartRate = calculateMaximumHeartRate();
+        return (int) (maxHeartRate * 0.7); // 70% of maximum heart rate
+    }
 }
+

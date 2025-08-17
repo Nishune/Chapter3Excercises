@@ -23,5 +23,6 @@ public class Main {
         System.out.printf("Date of Birth: %s%n", person.getDateOfBirth());
         System.out.printf("Age: %d years%n", person.calculateAge());
         System.out.printf("Maximum Heart Rate: %d bpm%n", person.calculateMaximumHeartRate());
+        System.out.printf("Target Heart Rate: %d bpm%n", person.targetHeartRate());
     }
 }
