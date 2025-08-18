@@ -33,6 +33,7 @@ public class Main {
         System.out.printf("Target Heart Rate: %d bpm\n", profile.targetHeartRate());
         System.out.println("End of program, test for github");
         System.out.println("test again."); //hej
+        //testing agian
 
 
     }
