@@ -31,6 +31,8 @@ public class Main {
         System.out.printf("BMI: %d\n", profile.calculateBMI());
         System.out.printf("Maximum Heart Rate: %d bpm\n", profile.calculateMaximumHeartRate());
         System.out.printf("Target Heart Rate: %d bpm\n", profile.targetHeartRate());
+        System.out.println("End of program, test for github");
+        System.out.println("test again."); //hej
 
 
     }
